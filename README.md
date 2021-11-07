@@ -1,15 +1,6 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+# Chainlink Contracts
+Collection of chainlink contracts and hardhat tests covering following areas
+- [VRF (Verifiable Random Function](https://docs.chain.link/docs/chainlink-vrf/)
+- [Chainlink Keepers](https://docs.chain.link/docs/chainlink-keepers/introduction/)
+- [Chainlink Aggregator Data Feeds](https://docs.chain.link/docs/get-the-latest-price/)
+- [Chainlink External API Calls](https://docs.chain.link/docs/request-and-receive-data/)
